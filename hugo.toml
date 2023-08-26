@@ -1,0 +1,4 @@
+baseURL = 'http://quickstart.org/'
+languageCode = 'en-us'
+title = 'Pmwatt'
+theme = 'ananke'
