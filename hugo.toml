@@ -1,4 +1,4 @@
-baseURL = 'http://quickstart.org/'
+baseURL = 'https://pmwatt.github.io/'
 languageCode = 'en-us'
 title = 'Pmwatt'
 theme = 'ananke'
