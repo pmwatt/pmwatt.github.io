@@ -1,0 +1,3 @@
+[submodule "themes/graysx-hugo"]
+	path = themes/graysx-hugo
+	url = https://github.com/akatiggerx04/graysx-hugo/
