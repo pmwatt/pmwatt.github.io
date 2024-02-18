@@ -1,47 +1,36 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-theme = 'graysx'
-title = 'Example Graysx Site'
+## -----------------------------------------------
+## Basic Configuration
+## -----------------------------------------------
 
-## Site Settings
-[params]
-logo = "assets/img/logo.webp"
-favicon = "assets/favicon.png"
+theme = "hugo-story"
 
-# Info
-address = "123 Arch B1W, GNU/Linux"
-email = "hello@graysx.com"
-phone = "123456"
+## -----------------------------------------------
+## Publish
+## -----------------------------------------------
 
-# Socials
+relativeURLs = "true"
+#canonifyURLs = "true"
 
-github = "https://github.com/pmwatt"
-linkedin = "https://www.linkedin.com/in/prachnachai-m/"
+# Local
+baseURL = "/"
+publishDir = "public"
 
-# Other
-
-# Startbootstrap Contact Form Token https://startbootstrap.com/solution/contact-forms
-sbtoken = "TOKEN_HERE"
-
-## Menu Items
-[menu]
-  [[menu.main]]
-  name = "About"
-  URL = "#about"
-  weight = 1
-
-  [[menu.main]]
-  name = "Projects"
-  URL = "#projects"
-  weight = 2
-
-  [[menu.main]]
-  name = "Contact"
-  URL = "#contact"
-  weight = 3
+# Remote
+#baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
+#publishDir = "//centos/sites/hugodev/hugostory/"
 
 
-# Credits
+## -----------------------------------------------
+## Hugo Built-in Features
+## -----------------------------------------------
 
-# This theme is forked from: https://github.com/startbootstrap/startbootstrap-grayscale
-# This theme is forked by: https://github.com/akatiggerx04
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+# googleAnalytics = "your-google-analytics-id"
+
+## -----------------------------------------------
+## Site Parameters
+## -----------------------------------------------
+
+[Params]
+
+[Params.social]
